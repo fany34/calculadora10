@@ -42,7 +42,11 @@ public class Calculadora {
         return Math.pow(a, b);
     }
     
-    string sms(string sms){
+    String sms(String sms){
         return "*" + sms + "*";
     }
+   double ecuacion(int a,int b){
+       return a*b + a*b;
+   }
+    
 }
